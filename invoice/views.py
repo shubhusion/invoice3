@@ -8,6 +8,7 @@ from .models import *
 from .functions import *
 
 from django.contrib.auth.models import User, auth
+from django.contrib.auth import authenticate
 from random import randint
 from uuid import uuid4
 

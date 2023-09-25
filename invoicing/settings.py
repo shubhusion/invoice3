@@ -95,10 +95,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'invoice',
-        'USER': 'invoiceuser',
-        'PASSWORD': 'invoice_password',
+        'USER': 'postgres',
+        'PASSWORD': 'shubham',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '5432',
     }
 }
 
